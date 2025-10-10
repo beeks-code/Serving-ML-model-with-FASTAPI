@@ -1,6 +1,6 @@
 import pickle
 import pandas as pd
-with open("config\model.pkl","rb") as f:
+with open("config/model.pkl","rb") as f:
     model=pickle.load(f)
 
 class_predict=model.classes_.tolist()
